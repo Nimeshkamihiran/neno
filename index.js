@@ -42,7 +42,7 @@ const client1 = new MongoClient('mongodb://mongo:jepznPllfhRXsOlxmsuXCwRNwLXOqOj
 
 
 
-    const client = new MongoClient('mongodb://mongo:AtncDEhKqwEuzBhVjzggpKGwoqEujVsg@tramway.proxy.rlwy.net:34443', { maxPoolSize: 3 });-
+    const client = new MongoClient('mongodb://mongo:AtncDEhKqwEuzBhVjzggpKGwoqEujVsg@tramway.proxy.rlwy.net:34443', { maxPoolSize: 3 });
 const { updateList,readEnv,defEnv,updateEnv, loadSettings, dpchange} = require('./database');
 
 
